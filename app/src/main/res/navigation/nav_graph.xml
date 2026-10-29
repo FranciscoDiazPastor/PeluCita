@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
     app:startDestination="@id/welcomeFragment">
+
     <fragment
         android:id="@+id/welcomeFragment"
         android:name="com.example.pelucita.fragments.WelcomeFragment"
@@ -23,7 +24,12 @@
         android:id="@+id/signUpFragment"
         android:name="com.example.pelucita.fragments.SignUpFragment"
         android:label="Sign Up Fragment"
-        tools:layout="@layout/fragment_sign_up" />
+        tools:layout="@layout/fragment_sign_up">
+
+        <action
+            android:id="@+id/action_signUpFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/signInFragment"

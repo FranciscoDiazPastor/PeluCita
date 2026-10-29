@@ -12,4 +12,13 @@
     <string name="btn_welcome_sign_in">Iniciar sesión</string>
     <string name="welcome_guest">Explorar sin registrarme</string>
     <string name="msg_guest_mode">Modo invitado: podrás ver servicios y promociones</string>
+
+    <!-- Registro -->
+    <string name="signup_title">Crea tu cuenta</string>
+    <string name="signup_subtitle">Solo necesitamos tres datos para empezar</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="btn_signup">Registrarme</string>
+    <string name="signup_go_signin">¿Ya tienes cuenta? Inicia sesión</string>
 </resources>
