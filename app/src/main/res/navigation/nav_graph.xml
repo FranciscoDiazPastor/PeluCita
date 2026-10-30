@@ -35,7 +35,15 @@
         android:id="@+id/signInFragment"
         android:name="com.example.pelucita.fragments.SignInFragment"
         android:label="Sign In Fragment"
-        tools:layout="@layout/fragment_sign_in" />
+        tools:layout="@layout/fragment_sign_in">
+
+        <action
+            android:id="@+id/action_signInFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_signInFragment_to_recoveryFragment"
+            app:destination="@id/recoveryFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/recoveryFragment"
