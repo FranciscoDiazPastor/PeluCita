@@ -49,6 +49,11 @@
         android:id="@+id/recoveryFragment"
         android:name="com.example.pelucita.fragments.RecoveryFragment"
         android:label="Recovery Fragment"
-        tools:layout="@layout/fragment_recovery" />
+        tools:layout="@layout/fragment_recovery">
+
+        <action
+            android:id="@+id/action_recoveryFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
 
 </navigation>

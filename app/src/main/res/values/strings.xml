@@ -29,4 +29,12 @@
     <string name="signin_forgot">¿Has olvidado tu contraseña?</string>
     <string name="signin_go_signup">¿No tienes cuenta? Regístrate</string>
 
+    <!-- Recuperación de contraseña -->
+    <string name="recovery_title">Recupera tu contraseña</string>
+    <string name="recovery_subtitle">Escribe tu correo y te enviaremos un código de verificación</string>
+    <string name="hint_code">Código de verificación</string>
+    <string name="btn_send_code">Enviar código</string>
+    <string name="btn_verify_code">Verificar código</string>
+    <string name="recovery_back">Volver a iniciar sesión</string>
+
 </resources>
