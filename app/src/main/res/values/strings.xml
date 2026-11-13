@@ -36,4 +36,16 @@
     <string name="btn_verify_code">Verificar código</string>
     <string name="recovery_back">Volver a iniciar sesión</string>
 
+    <!-- Inicio -->
+    <string name="title_home">Inicio</string>
+
+    <!-- Errorres y mensajes -->
+    <string name="error_invalid_email">Introduce un correo electrónico válido</string>
+    <string name="error_name_short">El nombre debe tener al menos 3 caracteres</string>
+    <string name="error_password_short">La contraseña debe tener al menos 8 caracteres</string>
+    <string name="error_password_number">La contraseña debe contener al menos un número</string>
+    <string name="error_wrong_credentials">Correo o contraseña incorrectos</string>
+    <string name="msg_account_created">Cuenta creada con éxito</string>
+    <string name="msg_code_sent">Código enviado. Revisa tu bandeja de entrada</string>
+
 </resources>

@@ -1,0 +1,51 @@
+<resources>
+    <!-- Base Application -->
+    <string name="app_name">PeluCita</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_slogan">Your hairdresser appointment, no phone calls</string>
+    <string name="welcome_benefit_1">Book your appointment in seconds</string>
+    <string name="welcome_benefit_2">Get exclusive promotions</string>
+    <string name="welcome_benefit_3">Check and change your appointments anytime</string>
+    <string name="btn_create_account">Create account</string>
+    <string name="btn_welcome_sign_in">Sign in</string>
+    <string name="welcome_guest">Explore without signing up</string>
+    <string name="msg_guest_mode">Guest mode: you will be able to see services and promotions</string>
+
+    <!-- Sign Up -->
+    <string name="signup_title">Create your account</string>
+    <string name="signup_subtitle">We only need three details to get started</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email address</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_signup">Sign up</string>
+    <string name="signup_go_signin">Already have an account? Sign in</string>
+
+    <!-- Sign In -->
+    <string name="signin_title">Welcome back</string>
+    <string name="signin_subtitle">Sign in to manage your appointments</string>
+    <string name="btn_signin">Sign in</string>
+    <string name="signin_forgot">Forgot your password?</string>
+    <string name="signin_go_signup">No account yet? Sign up</string>
+
+    <!-- Password Recovery -->
+    <string name="recovery_title">Recover your password</string>
+    <string name="recovery_subtitle">Enter your email and we will send you a verification code</string>
+    <string name="hint_code">Verification code</string>
+    <string name="btn_send_code">Send code</string>
+    <string name="btn_verify_code">Verify code</string>
+    <string name="recovery_back">Back to sign in</string>
+
+    <!-- Home -->
+    <string name="title_home">Home</string>
+
+    <!-- Errors and messages -->
+    <string name="error_invalid_email">Enter a valid email address</string>
+    <string name="error_name_short">Name must be at least 3 characters long</string>
+    <string name="error_password_short">Password must be at least 8 characters</string>
+    <string name="error_password_number">Password must contain at least one number</string>
+    <string name="error_wrong_credentials">Wrong email or password</string>
+    <string name="msg_account_created">Account created successfully</string>
+    <string name="msg_code_sent">Code sent. Check your inbox</string>
+
+</resources>
