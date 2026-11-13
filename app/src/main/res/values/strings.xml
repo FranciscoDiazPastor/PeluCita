@@ -47,5 +47,7 @@
     <string name="error_wrong_credentials">Correo o contraseña incorrectos</string>
     <string name="msg_account_created">Cuenta creada con éxito</string>
     <string name="msg_code_sent">Código enviado. Revisa tu bandeja de entrada</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

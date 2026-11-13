@@ -43,6 +43,9 @@
         <action
             android:id="@+id/action_signInFragment_to_recoveryFragment"
             app:destination="@id/recoveryFragment" />
+        <action
+            android:id="@+id/action_signInFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
     </fragment>
 
     <fragment
@@ -55,5 +58,11 @@
             android:id="@+id/action_recoveryFragment_to_signInFragment"
             app:destination="@id/signInFragment" />
     </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.pelucita.fragments.HomeFragment"
+        android:label="Home Fragment"
+        tools:layout="@layout/fragment_home" />
 
 </navigation>
