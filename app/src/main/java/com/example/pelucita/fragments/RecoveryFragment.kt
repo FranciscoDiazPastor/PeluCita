@@ -7,6 +7,8 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.pelucita.R
 import com.example.pelucita.databinding.FragmentRecoveryBinding
+import android.content.pm.ActivityInfo
+
 
 class RecoveryFragment : Fragment()
 {
@@ -25,5 +27,11 @@ class RecoveryFragment : Fragment()
         binding.tvBackToSignIn.setOnClickListener {
             findNavController().navigate(R.id.action_recoveryFragment_to_signInFragment)
         }
+    }
+
+    override fun onResume() {
+        super.onResume()
+
+        requireActivity().requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
     }
 }

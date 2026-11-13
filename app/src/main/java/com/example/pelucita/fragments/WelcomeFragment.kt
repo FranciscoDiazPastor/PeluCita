@@ -8,6 +8,8 @@ import androidx.navigation.fragment.findNavController
 import com.example.pelucita.R
 import com.example.pelucita.databinding.FragmentWelcomeBinding
 import com.google.android.material.snackbar.Snackbar
+import android.content.pm.ActivityInfo
+
 class WelcomeFragment : Fragment()
 {
     private lateinit var binding: FragmentWelcomeBinding
@@ -31,5 +33,11 @@ class WelcomeFragment : Fragment()
             Snackbar.make(binding.root, R.string.msg_guest_mode,
                 Snackbar.LENGTH_LONG).show()
         }
+    }
+
+    override fun onResume() {
+        super.onResume()
+
+        requireActivity().requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
     }
 }
