@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.pelucita.databinding.FragmentHomeBinding
+
 class HomeFragment : Fragment()
 {
     private lateinit var binding: FragmentHomeBinding
