@@ -8,10 +8,10 @@
     android:gravity="center_vertical"
     android:orientation="vertical"
     android:padding="24dp"
-    tools:context=".fragments.WelcomeFragment">
+    tools:context=".fragments.SignUpFragment">
 
     <TextView
-        android:id="@+id/tvSingUpTitle"
+        android:id="@+id/tvSignUpTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/signup_title"
