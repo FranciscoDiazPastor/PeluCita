@@ -35,6 +35,7 @@
     <string name="btn_send_code">Send code</string>
     <string name="btn_verify_code">Verify code</string>
     <string name="recovery_back">Back to sign in</string>
+    <string name="recovery_code_sent">Recovery code sent</string>
 
     <!-- Home -->
     <string name="title_home">Home</string>

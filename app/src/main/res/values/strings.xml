@@ -35,6 +35,7 @@
     <string name="btn_send_code">Enviar código</string>
     <string name="btn_verify_code">Verificar código</string>
     <string name="recovery_back">Volver a iniciar sesión</string>
+    <string name="recovery_code_sent">Código de recuperación enviado</string>
 
     <!-- Inicio -->
     <string name="title_home">Inicio</string>
